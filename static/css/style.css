@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.search-box {
+  width: 300px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+}
+
+#suggestions li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.address-info {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

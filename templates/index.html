@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Поиск адресов</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Введите адрес...">
+            <ul id="suggestions"></ul>
+        </div>
+        <div class="address-info">
+            <h2 id="address-title">Информация об адресе</h2>
+            <p id="address-details1"></p>
+            <p id="address-details2"></p>
+            <p id="address-details3"></p>
+            <p id="address-details4"></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
